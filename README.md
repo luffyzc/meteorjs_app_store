@@ -22,5 +22,5 @@ This only takes roughly 10 minutes total. And you will have a fully functional a
 - Install [Meteor](https://www.meteor.com/install)
 - Start a terminal, execute command `meteor run`. this will install mongoDB, and do the necessary bootstrapping, starting nodejs server etc for you all in one command. 
 - This may take a little a few minutes, you will need to type your password if you are running mac. Eventully you should see this in your terminal `App running at: http://localhost:3000/`
-- Browse to localhost:3000 you should see the starting project [[https://github.com/newjs/meteorjs_app_store/blob/master/images/appstore.png]].
+- Browse to localhost:3000 you should see the starting project ![App Store](https://github.com/newjs/meteorjs_app_store/blob/master/images/appstore.png "Meteor App Store").
 
