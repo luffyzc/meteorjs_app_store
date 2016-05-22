@@ -15,3 +15,12 @@ To achieve this:
 - Display our new property in the appPage template.
 - Tip: Our code will only run once since it’s wrapped an If{} block checking for an empty App collection. To reset the database, stop meteor (control + c in the console) and type ’meteor reset’.
 
+### Prerequisite
+
+This only takes roughly 10 minutes total. And you will have a fully functional app store!
+- Install [nodejs](https://nodejs.org/en/)
+- Install [Meteor](https://www.meteor.com/install)
+- Start a terminal, execute command `meteor run`. this will install mongoDB, and do the necessary bootstrapping, starting nodejs server etc for you all in one command. 
+- This may take a little a few minutes, you will need to type your password if you are running mac. Eventully you should see this in your terminal `App running at: http://localhost:3000/`
+- Browse to localhost:3000 you should see the starting project.
+
