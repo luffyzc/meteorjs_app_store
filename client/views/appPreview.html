@@ -9,6 +9,9 @@
             </div>
             <div class="col-xs-6 nameColumn">
                 <a href="{{pathFor 'appPage'}}">{{name}}</a><br/>
+                {{#if numberOfRecommendations}}
+                <p>Recommended {{numberOfRecommendations}} times</p>
+                {{/if}}
                 <div style="display:flex">
                     {{> starsRating rating=avgRating class='mystar' size='sm'}}
                 </div>

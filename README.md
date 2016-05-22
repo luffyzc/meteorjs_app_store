@@ -20,7 +20,8 @@ To achieve this:
 This only takes roughly 10 minutes total. And you will have a fully functional app store!
 - Install [nodejs](https://nodejs.org/en/)
 - Install [Meteor](https://www.meteor.com/install)
-- Start a terminal, execute command `meteor run`. this will install mongoDB, and do the necessary bootstrapping, starting nodejs server etc for you all in one command. 
-- This may take a little a few minutes, you will need to type your password if you are running mac. Eventully you should see this in your terminal `App running at: http://localhost:3000/`
+- Start a terminal, execute command `meteor run`. This will install mongoDB, and do the necessary bootstrapping, starting nodejs server etc for you all in one command. 
+- This may take a little a few minutes, you will need to type your password if you are running mac. Eventully you should see this line in your terminal `App running at: http://localhost:3000/`. This means everything is good, your starting project is ready.
 - Browse to localhost:3000 you should see the starting project ![App Store](https://github.com/newjs/meteorjs_app_store/blob/master/images/appstore.png "Meteor App Store").
+
 

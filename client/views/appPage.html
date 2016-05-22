@@ -21,6 +21,9 @@
             <div class="col-xs-7 appInfo">
                 <div class="appTitle">{{name}}</div>
                 <p class="text-muted">{{developer}}</p>
+                {{#if numberOfRecommendations}}
+                <p>Recommended {{numberOfRecommendations}} times</p>
+                {{/if}}
                 <div class="ratingsArea">
                     {{> starsRating rating=avgRating class='mystar' size='sm'}}
                 </div>
